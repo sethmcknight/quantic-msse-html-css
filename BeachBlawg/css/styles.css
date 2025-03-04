@@ -1,3 +1,33 @@
 body {
     width: 800px;
 }
+
+h1, h2 {
+    background-color: #1d5171;
+    color: #fffefc;
+}
+
+#credit {
+    color: #c2b280;
+}
+
+#intro, #outro {
+    text-align: center;
+    border: 3px solid #c2b280;
+    color: white;
+    background-color: #1d5171;
+}
+
+.signature {
+    font-family: "brush script mt", cursive;
+    font-size: 30px;
+}
+
+.post {
+    background-color: #dfce9d;
+    border: 3px solid #c2b280;
+}
+
+.date {
+    font-size: 12px;
+}
