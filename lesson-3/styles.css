@@ -1,3 +1,23 @@
 h1 {
-    color: blue;
+    color: #BC3F00;
+    background-color: #dbedf7;
+    border: 5px dotted #92ab12;
+    text-shadow: 2px 2px gray;
+}
+
+h2{
+    color: #BC3F00;
+}
+
+body {
+    background-color: blanchedalmond;
+    width: 330px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+html {
+    background-color: burlywood;
 }
