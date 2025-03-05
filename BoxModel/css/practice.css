@@ -1,0 +1,59 @@
+/* Display Property Practice */
+#wall {
+    border: 3px solid black;
+    width: 344px;
+}
+.box {
+    background-color: #ff4d63;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+}
+
+.one {
+    
+}
+
+.two {
+    
+}
+
+.three {
+    
+}
+
+.four {
+    
+}
+
+.five {
+    
+}
+
+.six {
+    
+} 
+
+/* Box Model Practice */
+
+.framed {
+    border: 10px groove goldenrod;
+}
+
+.picture1 {
+    
+}
+
+.picture2 {
+    
+}
+
+.picture3 {
+    
+}
+
+.picture4 {
+    
+}
+
