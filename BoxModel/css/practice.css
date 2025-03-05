@@ -42,18 +42,20 @@
 }
 
 .picture1 {
-    
+    padding: 15px;
+    margin: 0px 20px 20px 30px; 
 }
 
 .picture2 {
-    
+    margin-bottom: 20px;   
 }
 
 .picture3 {
-    
+    padding: 10px;
+    vertical-align: top;
 }
 
 .picture4 {
-    
+    margin-left: 20px;
 }
 
