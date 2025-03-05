@@ -12,14 +12,16 @@
 
 #info {
     display: inline-block;
+    width: 350px;
 }
 
 .ingredients {
-    
+    display: inline-block;
 }
 
 .instructions {
-    
+    display: inline-block;
+    width: 410px;
 }
 
 li {
