@@ -45,21 +45,26 @@ p {
 }
 
 .b1 {
-    
+  top: 40px;  
 }
 
 .p2 {
-    
+ position: relative;
+ left: 70px;   
 }
 
 .p3 {
-    
+    position: fixed;
+    top: 100px;
+    right: 100px;
 }
 
 .b4 {
-    
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 #parent4 {
-    
+    position: relative;
 }

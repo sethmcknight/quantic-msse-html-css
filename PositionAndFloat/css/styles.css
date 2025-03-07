@@ -8,13 +8,12 @@
 
 #desc {
     font-size: 20px;
-    display: inline-block;
-    width: 350px;
 }
 
 #cookies {
     margin-right: 10px;
     margin-top: 25px;
+    float: left;
 }
 
 .recipe {
@@ -53,6 +52,7 @@
 
 .nutrition {
     grid-area: area5;
+    position: relative;
 }
 
 li {
@@ -79,5 +79,7 @@ h1 {
 
 #ad {
     border-left: 3px solid #ff4d63;
-
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
