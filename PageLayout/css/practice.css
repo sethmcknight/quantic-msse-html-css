@@ -1,0 +1,78 @@
+/*-------------------- Grid Practice --------------------*/
+
+.grid-example {
+    width: 900px;
+    margin-left: 30px;
+
+}
+
+.grid-area {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header {
+    background-color: #ff4d63;
+    
+}
+
+.left-side {
+    background-color: #9557ec;
+    
+}
+
+.main {
+    background-color: #1dd0b4;
+    
+}
+
+.right-side{
+    background-color: #4d7aff;
+    
+}
+
+.footer {
+    background-color: #ffbe00;
+    
+}
+
+
+/*-------------------- Flexbox Practice --------------------*/
+
+.flex-example {
+    background-color: antiquewhite;
+    width: 900px;
+    margin-left: 30px;
+    
+}
+
+.box {
+    background: tomato;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.item1 {
+    
+}
+
+.item2 {
+    
+}
+
+.item3 {
+    
+} 
+
+.item4 {
+    
+}
+
+.item5 {
+    
+}
