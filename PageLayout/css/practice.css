@@ -3,7 +3,13 @@
 .grid-example {
     width: 900px;
     margin-left: 30px;
-
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 80px auto 80px;
+    grid-template-areas: 
+        "area1 area1 area1"
+        "area2 area3 area4"
+        "area5 area5 area5";
 }
 
 .grid-area {
@@ -14,27 +20,27 @@
 
 .header {
     background-color: #ff4d63;
-    
+    grid-area: area1; 
 }
 
 .left-side {
     background-color: #9557ec;
-    
+    grid-area: area2;
 }
 
 .main {
     background-color: #1dd0b4;
-    
+    grid-area: area3;
 }
 
 .right-side{
     background-color: #4d7aff;
-    
+    grid-area: area4;
 }
 
 .footer {
     background-color: #ffbe00;
-    
+    grid-area: area5;
 }
 
 
