@@ -193,25 +193,31 @@ h1 {
 
 header, footer {
     margin: 0px;
-    
+    text-align: center;
 }
 
 .grid {
     display: grid;
-    
+    grid-template-columns: 710px 300px;
+    grid-template-areas: "left right";
+    gap: 50px;
+    margin: auto;
+    width: min-content;
 }
 
 main {
-    
+    grid-area: left;
 }
 
 aside {
     text-align: center;
-    
+    grid-area: right;
 }
 
 .recipe-list {
     display: flex;
-    
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
