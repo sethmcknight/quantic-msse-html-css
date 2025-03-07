@@ -38,6 +38,9 @@
 
 .details {
     grid-area: area2;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
 }
 
 .ingredients {
@@ -70,7 +73,8 @@ h1 {
     margin: 0;
     text-align: center;
     line-height: 50px;
-    
+    width: 200px;
+    flex-grow: 1;
 }
 
 #ad {
