@@ -1,0 +1,65 @@
+/*-------------------- Position Practice --------------------*/
+
+.p-box {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display: inline-block;
+    width: 500px;
+    padding: 0 50px 50px 0;
+    margin: 30px;
+}
+
+.title {
+    color: gray;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 55px;
+    color: white;
+    line-height: 100px;
+    font-size: 26px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+p {
+    margin: 0;
+}
+
+.b1 {
+    
+}
+
+.p2 {
+    
+}
+
+.p3 {
+    
+}
+
+.b4 {
+    
+}
+
+#parent4 {
+    
+}
