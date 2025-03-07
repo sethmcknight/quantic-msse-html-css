@@ -219,24 +219,40 @@ aside {
 
 /* YOUR CODE STARTS HERE */
 
-@media (max-width: ) {
+#logo {
+    width: 20%;
+}
+
+#large-image {
+    width: 30vw;
+}
+
+h1 {
+    font-size: 2vh;
+}
+
+@media (max-width: 1080px) {
     .grid {
-        
+       grid-template-columns: auto; 
+       grid-template-rows: auto auto;
+       grid-template-areas: 
+            "top"
+            "bottom";
     }
     main {
-        
+        grid-area: top;   
     }
     aside {
-        
+        grid-area: bottom;
     }
 }
 
-@media () {
+@media (max-width: 720px) {
     main, aside, .recipe {
-        
+     width: 90vw;   
     }
     #large-image{
-        
+        display: none;
     }
 }
 
